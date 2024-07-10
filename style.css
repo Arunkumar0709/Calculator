@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:url(./pngtree-simple-natural-green-leaf-h5-illustration-image_132970.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.calculator {
+    background:rgb(11, 11, 11)
+    border:2px solid rgba(255, 255, 255, .2);
+    backdrop-filter:blur(10px);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.calculator h2 {
+    margin-bottom: 20px;
+}
+
+.calculator label {
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.calculator input {
+    margin-bottom: 10px;
+}
+
+.calculator button {
+    margin: 5px;
+    padding: 10px;
+    color: #0e0404;
+    background: rgb(254, 69, 69);
+}
+
+#result {
+    font-weight:bold;
+    margin-top:20px;
+    display: inline-block;
+}
